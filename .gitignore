@@ -1,0 +1,22 @@
+.DS_Store
+
+/*
+
+!.gitignore
+!wp-content/
+
+# ignore everyhing in the directory
+wp-content/*
+
+# but not the themes and plugins
+!wp-content/themes/
+!wp-content/plugins/
+
+# ignore all the themes and all the plugins
+wp-content/themes/*
+wp-content/plugins/*
+
+# but not our own themes and plugins
+# Example:
+
+!wp-content/themes/my-theme/*
